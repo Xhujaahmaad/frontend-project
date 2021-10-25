@@ -1,0 +1,48 @@
+@media(max-width: 991px){
+	.set-below-medium{
+		flex-direction: column;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+.set-radios-solo{
+	min-height: 325px;
+}
+.set-radios-solo3{
+	min-height: 704px;
+}
+.set-eight-ul li:after {
+    position: absolute;
+    content: '';
+    background: url(../img/tick.svg)no-repeat;
+    left: 5px;
+    width: 23px;
+    height: 23px;
+}
+.set-eight-ul li {
+    list-style: none;
+    position: relative;
+    display: flex;
+    padding: 10px 0px 10px 31px;
+}
+.set-radios-solo button{
+	font-size: 15px;
+}
+    
+}
+
+@media(max-width: 767px){
+	
+	.set-header-two .col-md-3{
+		text-align: center;
+	}
+	.set-header-two .settwo-head-col{
+		justify-content: center;
+		padding-bottom: 25px;
+	}
+
+
+	.set-date-res{
+		flex-direction: column;
+	}
+
+}
